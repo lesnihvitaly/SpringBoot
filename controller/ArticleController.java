@@ -32,7 +32,7 @@ public class ArticleController {
 
 
     @GetMapping("/articles")
-    public String main1(@RequestParam(required = false, defaultValue = "", name = "category") String category,
+    public String main(@RequestParam(required = false, defaultValue = "", name = "category") String category,
                         @RequestParam(required = false, defaultValue = "", name = "filter") String filter,
 
                         Model model,
